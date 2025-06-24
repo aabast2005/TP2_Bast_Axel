@@ -1,0 +1,47 @@
+    1  sudo fdisc
+    2  sudo f disc
+    3  sudo fdisk
+    4  sudo fdisk - l
+    5  sudo fdisk -;
+    6  sudo fdisk -l
+    7  sudo mkdir disk /dev/sdd
+    8  sudo disk -l
+    9  sudo fdisk /dev/sdd
+   10  sudo fdisk
+   11  sudo fdisk /dev/sdd
+   12  free
+   13  free -h
+   14  sudo mkswap /dev/sdd1
+   15  free -h
+   16  sudo swapon /dev/sdd1
+   17  free -h
+   18  swapon -s
+   19  sudo fdisk /dev/sdc
+   20  sudo wipefs -a /dev/sdc1
+   21  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+   22  sudo pvs
+   23  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+   24  sudo vgs
+   25  sudo pvs
+   26  sudo vgcreate vg_web /dev/sdc2
+   27  sudo pvs
+   28  sudo lvcreate -L 1G vg_web -n lv_web1
+   29  sudo pvs
+   30  sudo lvcreate -L 512M vg_web -n lv_web2
+   31  sudo lvcreate -L 512M vg_web -n lv_web3
+   32  sudo lvs
+   33  sudo pvs
+   34  sudo fdisk -l
+   35  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+   36  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+   37  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+   38  sudo lsblk -f
+   39  exit
+   40  ls -l
+   41  git clone https://github.com/aabast2005/TP2_Bast_Axel.git
+   42  ls -l
+   43  cd TP2_Bast_Axel/
+   44  sudo pvs > pvs.txt
+   45  sudo vgs > vgs.txt
+   46  sudo lvs > lvs.txt 
+   47  history > historial_lvm.txt
